@@ -8,6 +8,8 @@ public class Suma
 
         Scanner teclado = new Scanner( System.in );
 
+
+        //loop this
         System.out.print( "Introduzca primer número: " );
         n1 = teclado.nextInt();
 
