@@ -4,7 +4,7 @@ public class Suma
 {
     public static void main( String[] args )
     {
-        int n1, n2, suma;
+        int n1, n2, n3, suma;
 
         Scanner teclado = new Scanner( System.in );
 
@@ -14,8 +14,11 @@ public class Suma
         System.out.print( "Introduzca segundo número: " );
         n2 = teclado.nextInt();
 
-        suma = n1 + n2;
+        System.out.print( "Introduzca tercer número: " );
+        n3 = teclado.nextInt();
 
-        System.out.println( "La suma de " + n1 + " más " + n2 + " es " + suma + "." );
+        suma = n1 + n2 + n3;
+
+        System.out.println( "La suma de " + n1 + " más " + n2 + " mas " + n3 + " es " + suma + "." );
     }
 }
