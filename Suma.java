@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//pilot branch
 public class Suma
 {
     public static void main( String[] args )
@@ -7,16 +7,16 @@ public class Suma
         int n1, n2, n3, suma;
 
         Scanner teclado = new Scanner( System.in );
-
+        
 
         //loop this
-        System.out.print( "Introduzca primer número: " );
+        System.out.print( "n1: " );
         n1 = teclado.nextInt();
 
-        System.out.print( "Introduzca segundo número: " );
+        System.out.print( "n2: " );
         n2 = teclado.nextInt();
 
-        System.out.print( "Introduzca tercer número: " );
+        System.out.print( "n3: " );
         n3 = teclado.nextInt();
 
         suma = n1 + n2 + n3;
